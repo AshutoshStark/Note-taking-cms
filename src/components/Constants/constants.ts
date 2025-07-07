@@ -1,6 +1,6 @@
 
 
-export const API_URL = "https://notecompass-api-express.vercel.app/api";
+export const API_URL = "https://note-taking-api-sigma.vercel.app/api";
 
 //export const API_URL = "http://localhost:8000/api";
 
