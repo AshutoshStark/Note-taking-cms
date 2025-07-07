@@ -17,7 +17,7 @@ function App() {
         <Route path='/login' element={<LoginPage/>}/>
         <Route path='/signup' element={<SignUpPage/>} />
         <Route path='/categories' element={currentUser !== null ? <CategoriesHomePage/> : <LoginPage/>}/>
-        <Route path='/notes/new' element={<AddNotesPage/>}/>
+        <Route path='/notes/new' element={currentUser !== null ?<AddNotesPage/>: <LoginPage/>}/>
       </Routes>
     </BrowserRouter>
   );
